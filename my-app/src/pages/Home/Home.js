@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 function Home() {
     return (
-        <div>
+        <div class="background">
             <h1>home bruh</h1>
         </div>
     )

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/About";
 import Catering from "./pages/Catering";
 import Contact from "./pages/Contact";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Media from "./pages/Media";
 import Menu from "./pages/Menu";
 import Nav from "./components/Nav";
