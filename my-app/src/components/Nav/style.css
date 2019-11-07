@@ -1,8 +1,8 @@
-.verticalArea{
-    align-items: top; 
-    background-image:linear-gradient(rgba(192, 183, 183, 0.89), rgba(214, 186, 134, 0.966)),url(maliCoffee.jpg);
+.verticalArea{ 
+    background-image:linear-gradient(rgba(192, 183, 183, 0.89), rgba(214, 186, 134, 0.966)),url(coffeeCup.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    background-position: center center; /* aligning nav image */
     display:flex;
     float: left;
     height: 100vh; /* 100% of viewport height */
