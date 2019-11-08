@@ -1,5 +1,5 @@
 .verticalArea{ 
-    background-image:linear-gradient(rgba(192, 183, 183, 0.89), rgba(214, 186, 134, 0.966)),url(coffeeCup.jpg);
+    background-image:linear-gradient(rgba(192, 183, 183, 0.993), rgba(44, 44, 44, 0.849)),url(coffeeCup.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center; /* aligning nav image */
@@ -11,24 +11,54 @@
 }
 
 .title{
-    color: rgba(0, 0, 0, 0.699);
+    color: rgba(255, 60, 0, 0.795);
     font-family: cursive;
-    font-size:22px;
+    font-size:40px;
     font-style: bold;
-    margin-left:5%;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .navSubHeaders{
-    color: whitesmoke;
+    color: white;
     font-family: cursive;
-    font-size:14px;
+    font-size:16px;
     font-style: bold;
-    margin-left:5%;
+    margin-left:7%;
     margin-top:15%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .navAddress{
-    color: whitesmoke;
+    color:  white;
     font-family: cursive;
     font-size:14px;
     font-style: bold;
-    margin-right:5%;
+    margin-right:7%;
 }
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+/* Add a hover effect if you want */
+.fa:hover {
+    background-color: rgba(255, 60, 0, 0.795);
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+    background: rgba(199, 15, 159, 0.932);
+    color: white;
+    margin-left:20px;
+  }

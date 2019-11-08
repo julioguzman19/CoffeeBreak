@@ -17,20 +17,16 @@ function Nav() {
 
                 </div>
                 <div class="navSubHeaders">
-                    <h3>Address: </h3>
-                    <h3 class="navAddress">rue 445 lot3475 Hamdallaye ACI 2000 Bamako Mali</h3>
-                    <h3>Phone: </h3>
-                    <h3>
-                        Opening Hours: <br />
-                        Mon: 6am - 10pm<br />
-                        Tues:<br />
-                        Wed: <br />
-                        Thurs: <br />
-                        Fri:<br />
-                        Sat: <br />
-                        Sun: <br />
+
+                    <h3 class="navAddress">Adresse: <br></br>rue 445 lot3475 Hamdallaye ACI 2000 Bamako Mali</h3>
+                    <h3 class="navAddress">Tel: <br></br>83 88 28 28</h3>
+                    <h3 class="navAddress">
+                        Horaires: <br />
+                        Lundi-Vendredi: 7:00 - 21:00<br />
+                        Samedi-Dimanche: 10:00 - 22:00 <br />
                     </h3>
-                    <h3>Social Media Icons: </h3>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
                 </div>
             </nav>
 
