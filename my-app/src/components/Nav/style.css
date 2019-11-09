@@ -45,7 +45,7 @@
   }
 /* Add a hover effect if you want */
 .fa:hover {
-    background-color: rgba(255, 60, 0, 0.795);
+    background:red;
   }
   
   /* Set a specific color for each brand */
@@ -58,7 +58,7 @@
 
   /* Instagram */
   .fa-instagram {
-    background: rgba(199, 15, 159, 0.932);
+    background: linear-gradient( #400080, transparent),linear-gradient(200deg, #d047d1, #ff0000,    #ffff00);
     color: white;
     margin-left:20px;
   }
