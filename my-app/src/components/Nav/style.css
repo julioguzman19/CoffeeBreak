@@ -11,15 +11,14 @@
 }
 
 .title{
-    color: rgba(255, 60, 0, 0.795);
-    font-family: cursive;
-    font-size:40px;
+    color: rgba(255, 0, 0, 0.911);
+    font-family: 'Supermercado One', cursive;
+    font-size:46px;
     font-style: bold;
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .navSubHeaders{
-    color: white;
     font-family: cursive;
     font-size:16px;
     font-style: bold;
@@ -27,6 +26,15 @@
     margin-top:15%;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+a{
+color: white;
+text-decoration: none;
+
+}
+/* Page Links */
+a:hover {
+    color:red;
+  }
 .navAddress{
     color:  white;
     font-family: cursive;
