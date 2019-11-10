@@ -1,0 +1,10 @@
+.homeArea{ 
+    background-image:url(outsideImage.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 25%; /* aligning outside image horizontal and vertical */
+    display:flex;
+    height: 100vh; /* 100% of viewport height */
+    justify-content: center; /* centers content */
+    color:white;   
+}

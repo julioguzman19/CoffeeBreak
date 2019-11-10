@@ -1,12 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import "./style.css";
+import Outside from "../../components/Outside";
+class Home extends Component {
 
-function Home() {
-    return (
-        <div class="background">
-            <h1>home bruh</h1>
-        </div>
-    )
+    render() {
+        return (
+            <div>
+                <Outside />
+            </div>
+        )
+    }
 }
-
 export default Home;
