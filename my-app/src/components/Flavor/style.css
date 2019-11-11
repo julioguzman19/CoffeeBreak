@@ -1,0 +1,11 @@
+.flavorComponentBackground{
+    background-color:orangered;
+}
+#flavorImage{
+    background-color:black;
+    float:left;
+    color:white;
+}
+#flavorName{
+    background: blue;
+}
