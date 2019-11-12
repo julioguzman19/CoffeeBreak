@@ -1,11 +1,29 @@
 .flavorComponentBackground{
-    background-color:orangered;
+    background-color: rgb(241, 241, 241);
+    width:80%;
+    float:right; /*making flavor component be 80% of right side since Nav is 20%*/
 }
 #flavorImage{
-    background-color:black;
+    background-image:url(crepe.jpg);
+    background-size:50% 70%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    color: rgba(255, 0, 0, 0.911);
+    display:flex;
     float:left;
-    color:white;
+    height: 50vh;
+    text-align:right;
+    width:50%;
 }
 #flavorName{
-    background: blue;
+    /* background: blue; */
+    background-size:60% 100%;
+    background-repeat: no-repeat;
+    background-position: cover; 
+    color: rgba(255, 0, 0, 0.911);
+    display:flex;
+    float:right;
+    font-size:30px;
+    height: 50vh;
+    width:50%;
 }

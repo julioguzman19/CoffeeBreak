@@ -7,4 +7,6 @@
     height: 50vh; /* 100% of viewport height */
     justify-content: center; /* centers content */
     color:white; 
+    width:80%;
+    float:right;
 }
