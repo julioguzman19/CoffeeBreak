@@ -4,19 +4,20 @@
     float:right; /*making flavor component be 80% of right side since Nav is 20%*/
 }
 #flavorImage{
-    background-image:url(crepe.jpg);
-    background-size:50% 70%;
-    background-repeat: no-repeat;
-    background-position: center; 
     color: rgba(255, 0, 0, 0.911);
     display:flex;
     float:left;
     height: 50vh;
-    text-align:right;
     width:50%;
 }
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 #flavorName{
-    /* background: blue; */
+    background: blue; 
     background-size:60% 100%;
     background-repeat: no-repeat;
     background-position: cover; 
