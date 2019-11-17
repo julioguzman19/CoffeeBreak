@@ -1,14 +1,17 @@
 .flavorComponentBackground{
-    background-color: rgb(241, 241, 241);
+    background-color: rgba(241, 239, 239, 0.986);
     width:80%;
     float:right; /*making flavor component be 80% of right side since Nav is 20%*/
 }
 #flavorImage{
-    color: rgba(255, 0, 0, 0.911);
+    border-radius:20px;
     display:flex;
     float:left;
     height: 50vh;
     width:50%;
+}
+.flavorImage{
+    border-radius:90px;
 }
 .center{
   display: block;
@@ -17,14 +20,21 @@
   
 }
 #flavorName{
-    background: blue; 
     background-size:60% 100%;
     background-repeat: no-repeat;
     background-position: cover; 
     color: rgba(255, 0, 0, 0.911);
     display:flex;
     float:right;
-    font-size:30px;
+    font-size:20px;
     height: 50vh;
     width:50%;
+}
+.flavorName{
+    font-family: 'Supermercado One', cursive; 
+}
+
+span{
+    display:block;
+    padding-top:40px;
 }

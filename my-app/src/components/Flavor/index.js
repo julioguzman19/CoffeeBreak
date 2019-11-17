@@ -5,10 +5,14 @@ import crepe from '../Flavor/crepe.jpg';
 function Flavor() {
     return (
         <div class="flavorComponentBackground">
-            <div id="flavorImage"><img src={crepe} class="center" alt="crepe" width="200px" height="200px" /><h1>Flavor of the Day!</h1></div>
+            <div id="flavorImage"><img src={crepe} class="center flavorImage" alt="crepe" width="250px" height="250px" /></div>
             <div id="flavorName">
-                Strawberry Crepe
-                <br></br>Price:$1
+                <h1 class="flavorName">
+                    Strawberry Crepe
+                <span>
+                        Price:$1
+                </span>
+                </h1>
             </div>
         </div >
     );
