@@ -1,5 +1,6 @@
 .flavorTitleBackground{
     background-color: rgba(241, 239, 239, 0.986);
+    height:15vh;
     width:80%;
     float:right; /*making flavor component be 80% of right side since Nav is 20%*/
     text-align:center;

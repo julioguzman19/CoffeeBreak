@@ -4,7 +4,7 @@ import "./style.css";
 function Outside() {
     return (
         <div>
-            <div class="homeArea">Outside component</div>
+            <div class="homeArea"></div>
         </div >
     );
 }

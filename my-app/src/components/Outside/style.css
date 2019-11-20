@@ -1,6 +1,6 @@
 .homeArea{ 
     background-image:url(outsideImage.jpg);
-    background-size:60% 100%;
+    background-size:100% 100%;
     background-repeat: no-repeat;
     background-position: center; /* aligning outside image horizontal and vertical */
     display:flex;
