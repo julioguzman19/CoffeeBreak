@@ -6,7 +6,7 @@ import Catering from "./pages/Catering";
 import Contact from "./pages/Contact";
 import Home from "../src/pages/Home/Home";
 import Media from "./pages/Media";
-import Menu from "./pages/Menu";
+import Menu from "./pages/Menu/Menu";
 import Nav from "./components/Nav";
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
+          <Route exact path="/menu" component={Menu} />
           {/* <Route exact path="/books/:id" component={Detail} />
             <Route component={NoMatch} />  */}
         </Switch>

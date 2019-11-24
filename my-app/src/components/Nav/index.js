@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 function Nav() {
     return (
@@ -8,8 +9,21 @@ function Nav() {
             <nav>
                 <h1 class="title">Coffee break</h1>
                 <div class="navSubHeaders">
-                    <h3 id="HomeId"><a href="">Home</a></h3>
-                    <h3 id="MenuId"><a href="">Menu</a></h3>
+                    <Link
+                        className={window.location.pathname === "/"}
+                        to="/"
+                    >
+                        <h3 id="HomeId"><a href="">Home</a></h3>
+                    </Link>
+
+
+                    <Link
+                        className={window.location.pathname === "/menu"}
+                        to="/menu"
+                    >
+                        <h3 id="MenuId"><a href="">Menu</a></h3>
+                    </Link>
+
                     <h3 id="CateringId"><a href="">Catering</a></h3>
                     <h3 id="MediaId"><a href="">Media</a></h3>
                     <h3 id="AboutId"><a href="">About</a></h3>
