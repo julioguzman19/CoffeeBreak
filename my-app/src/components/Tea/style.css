@@ -1,0 +1,7 @@
+.teaBackground{
+    background-color:blue;
+    /* height:35vh; */
+    width:26.6666667%; /* 33% of 80% as right side is 80% */
+    float:left; /*making MenuTitle component be 80% of right side since Nav is 20%*/
+    text-align:center;
+}

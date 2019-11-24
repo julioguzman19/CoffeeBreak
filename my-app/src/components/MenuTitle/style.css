@@ -1,0 +1,11 @@
+.menuTitleBackground{
+    background-color:whitesmoke;
+    height:35vh;
+    width:80%;
+    float:right; /*making MenuTitle component be 80% of right side since Nav is 20%*/
+}
+.center{
+    color: rgba(255, 0, 0, 0.911);
+    font-size: 28px;
+    text-align:center;
+}
